@@ -1207,3 +1207,12 @@ section {
   background-color:rgba(172, 255, 47, 0.795);
   border-radius: 10px;
 }
+
+.justifyypc{
+  text-align: justify;
+}
+@media (max-width: 991px) {
+  .justifyy{
+    text-align: justify;
+  }
+}
