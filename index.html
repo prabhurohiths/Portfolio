@@ -742,9 +742,9 @@
       var encodedSubject = encodeURIComponent(subject);
       var encodedBody = encodeURIComponent(body);
 
-      var gmailUrl = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=' + encodedEmail + '&su=' + encodedSubject + '&body=' + encodedBody;
+      var mailtoLink = 'mailto:' + encodedEmail + '?subject=' + encodedSubject + '&body=' + encodedBody;
 
-      window.location.href = gmailUrl;
+      window.location.href = mailtoLink;
     }
   </script>
 
