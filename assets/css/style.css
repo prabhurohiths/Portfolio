@@ -323,7 +323,7 @@ h6 {
 #hero .social-links a:hover {
   color: #0563bb;
 }
-@media (max-width: 1460px) {
+@media (max-width: 999px) {
   #hero {
     background: url("../img/hero-mbl.jpg") top right no-repeat;
   }
