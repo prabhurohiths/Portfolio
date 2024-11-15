@@ -266,7 +266,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg1.jpg") top right no-repeat;
+  background: url("../img/hero.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -328,7 +328,7 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
-    background: url("../img/hero-mbl.jpg") top right no-repeat;
+    background: url("../img/mobile.jpg") top right no-repeat;
   }
 
   #hero h1 {
@@ -342,7 +342,7 @@ h6 {
     line-height: 24px;
   }
   #hero:before {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
   }
 }
 
